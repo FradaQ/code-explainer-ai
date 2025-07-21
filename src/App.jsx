@@ -1,6 +1,7 @@
 // Code Explainer - React + JavaScript + Vite Project Scaffold
 
 import { useState } from "react"
+import './App.css'
 
 export default function CodeExplainer() {
   const openaiApiKey = import.meta.env.VITE_REACT_APP_OPENAI_API_KEY
