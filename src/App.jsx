@@ -3,7 +3,7 @@
 import { useState } from "react"
 
 export default function CodeExplainer() {
-  const openaiApiKey = process.env.REACT_APP_OPENAI_API_KEY
+  const openaiApiKey = import.meta.env.VITE_REACT_APP_OPENAI_API_KEY
   const [code, setCode] = useState("")
   const [explanation, setExplanation] = useState("")
   const [loading, setLoading] = useState(false)
